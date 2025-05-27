@@ -32,7 +32,7 @@ button.cta {
 
 button.cta:hover {
     background-color: #222;
-    color: #52ff02;
+    color: #fff;
 
 }
 
@@ -43,7 +43,9 @@ button.extra {
     padding: .8rem 1rem;
 
 }
-
+button:hover > a{
+    color: white;
+}
 a {
     text-decoration: none;
     color: #000;
@@ -58,20 +60,20 @@ a:hover {
 }
 
 a:active {
-    color: none;
+    color: #fff;
 }
 
 body main {
     margin: auto 10%;
     width: 60%;
-    border: .5px dashed red;
+    /* border: .5px dashed red; */
 }
 
 body main header {
     /* border: .5px dashed white; */
     width: max-content;
     margin: 10% 40% 0 0;
-    border: .5px solid yellow;
+    /* border: .5px solid yellow; */
 }
 
 body main header h1 {
@@ -94,7 +96,7 @@ body main header hr {
 
 body main div.all-company {
     margin: 5vh 0 0 0;
-    border: .5px solid yellow;
+    /* border: .5px solid yellow; */
     display: grid;
     gap: 2rem;
 }
