@@ -15,14 +15,63 @@ body {
 
 }
 
+button {
+    cursor: pointer;
+}
+
+button.cta {
+    background-color: #52ff02;
+    color: #000;
+    border: 0;
+    padding: .8rem 1rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .1s linear;
+}
+
+button.cta:hover {
+    background-color: #222;
+    color: #52ff02;
+
+}
+
+button.extra {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: .8rem 1rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    color: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+    color: none;
+}
+
 body main {
     margin: auto 10%;
+    width: 60%;
+    border: .5px dashed red;
 }
 
 body main header {
     /* border: .5px dashed white; */
     width: max-content;
     margin: 10% 40% 0 0;
+    border: .5px solid yellow;
 }
 
 body main header h1 {
@@ -35,4 +84,30 @@ body main header h1 {
 body main header p {
     font-size: 2rem;
     line-height: 0;
+}
+
+body main header hr {
+    background-color: white;
+    height: 5px;
+
+}
+
+body main div.all-company {
+    margin: 5vh 0 0 0;
+    border: .5px solid yellow;
+    display: grid;
+    gap: 2rem;
+}
+
+article.company {
+    background-color: #333;
+    padding: 2rem;
+}
+
+article.company h1.company-name {
+    line-height: 0;
+}
+
+article.company p.company-type {
+    font-family: monospace;
 }
