@@ -113,3 +113,18 @@ article.company h1.company-name {
 article.company p.company-type {
     font-family: monospace;
 }
+article.company button.cta{
+    /* height: 3rem; */
+}
+body main div.all-company article.company button.go-company a.cta span{
+    position:relative;
+    left: 0px;
+    top: 5px;
+    font-size:1.2rem;
+}
+body main div.all-company article.company p.company-type span{
+     position:relative;
+    left: 0px;
+    top: 5px;
+    font-size:1.2rem;
+}
