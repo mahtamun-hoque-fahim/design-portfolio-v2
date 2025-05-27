@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: none;
+    padding: none;
+    transition: .3s ease-in;
+    scroll-behavior: smooth;
+    font-family: Funnel Display, monospace;
+}
+
+
+body {
+    background-color: #111;
+    color: #fff;
+
+}
+
+body main {
+    margin: auto 10%;
+}
+
+body main header {
+    /* border: .5px dashed white; */
+    width: max-content;
+    margin: 10% 40% 0 0;
+}
+
+body main header h1 {
+    background-color: #52ff02;
+    color: #111;
+    width: max-content;
+    line-height: none;
+}
+
+body main header p {
+    font-size: 2rem;
+    line-height: 0;
+}

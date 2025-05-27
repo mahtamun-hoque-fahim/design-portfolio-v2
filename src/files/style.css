@@ -8,6 +8,22 @@
   font-family: Funnel Display, monospace;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:active {
+  color: #fff;
+}
 
 body {
   background-color: #111;
@@ -20,14 +36,12 @@ body {
 }
 
 body main {
-  /* margin: auto auto; */
   width: max-content;
 }
 
 span.highlight {
   background-color: #444;
   padding: 5px;
-  border: 1px dashed #111;
 }
 
 span.margin-b-1 {
@@ -35,6 +49,10 @@ span.margin-b-1 {
   position: relative;
   top: .1rem;
   left: .1rem;
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 button.cta {
@@ -45,10 +63,12 @@ button.cta {
   font-weight: bolder;
   font-size: 1rem;
   cursor: pointer;
+  transition: .1s linear;
 }
 
 button:hover {
-  background-color: #2e9200;
+  background-color: #333;
+  color: #52ff02;
 
 }
 
@@ -63,6 +83,9 @@ footer {
   right: 0;
 }
 
+footer p {
+  font-size: inherit;
+}
 
 
 
